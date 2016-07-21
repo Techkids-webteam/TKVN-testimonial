@@ -17,20 +17,21 @@
 
 .img_content h1{
     text-align: center;
-    font-size: 1.4em;
-    padding-top: 17%;
+    font-size: 2.4em;
+    font-weight: bold;
     color: white;
+    padding-top: 15%;
 }
 
 .img_content p{
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1.7em;
     color:#e7f2f6;
 }
 
 .MAD_comment{
-    height: 425px;
     background-color: white;
+    height: 425px;
 }
 
 .MAD_comment .header{
@@ -179,58 +180,53 @@
 
 .about_us{
     background-color: #00b3f6;
-    height: 292px;
-    padding-top: 63px;
-    padding-bottom: 69px;
-    text-align: center;
+    height: 35%;
     color: #ffffff;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 5%;
 }
 
 .about_us p{
     font-style: oblique;
-    font-size: 14.2px;
+    font-size: inherit;
 
 }
 
 .find_us{
     background-image: url('../img/background3.jpg');
-    height: 73vh;
-    text-align: center;
-    margin-top: -41px;
+    background-repeat: no-repeat;
     color: #f8f8f8;
+    height: 69vh;
+    text-align: center;
 }
 
 .find_us .title{
-    font-size: 1.4rem;
+    text-align: center;
+    font-size: 1.4em;
     float: none;
-    padding-top: 11%;
+    padding-top: 100px;
     white-space: nowrap;
-    font-weight: 300;
     text-transform: uppercase;
+    margin-bottom: 3px;
+    padding-bottom: 8px;
 }
 
-
-.find_us .title :after {
-    content: "";
-	border-top: 1px solid #fff;
-	position: relative;
-    transform: translateY(50%);
-	display: table-cell;
-	width: 48%;
-}
 
 .find_us .sub_title {
-    font-size: 2.3rem;
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 11px;;
 }
 
 .find_us button{
     background-color: #F05C1E;
     color: #f8f8f8;
-    height: 8%;
-    width: 18%;
-    border-radius: 8px;
+    border-radius: 6px;
     border: 0px;
     font-weight: bolder;
+    height: 40px;
+    width: 231px;
 }
 
 .footer .container_top {
@@ -240,10 +236,15 @@
     padding-bottom: 2%;
 }
 
+.footer .container_top {
+    padding-top: 11px;
+}
+
 .footer .container_top h4{
     display: inline-block;
     margin-left: 1%;
     margin-right: 2%;
+    font-weight: bold;
 }
 
 .footer .container_top button, button>a {

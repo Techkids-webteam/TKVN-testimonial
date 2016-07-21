@@ -8,9 +8,13 @@ body{
     font-family: tahoma;
 }
 
+.navbar{
+    margin-bottom: 0px;
+}
+
 .navbar-header img{
-    height: 47px;
-    width: 234px;
+    max-width: 50%;
+    margin-top: 2%;
 }
 
 .dropdown:hover .dropdown-menu>li a:hover{
@@ -38,20 +42,24 @@ body{
     color: #02BBE9;
 }
 
+.dropdown-menu{
+    font-size: large;
+}
+
 .slick-prev:before, .slick-next:before{
     color: grey;
 }
 
-/*@media screen and (min-width: 200px) and (max-width: 600px) {
-    .img_content h1{
-        font-size: 2.5rem;
-        margin-top: 60%;
-    }
-    .img_content p{
-        font-size: 20%;
-    }
 
-}*/
+
+@media screen and (min-width: 200px) and (max-width: 750px) {
+    .img_content{
+        font-size: 55%;
+    }
+    .find_us.title{
+        padding-top: 120px;
+    }
+}
 
 /*@media screen and (min-width: 600px) and (max-width: 1002px ) {
     .img_content h1{
