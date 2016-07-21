@@ -19,7 +19,7 @@
     </head>
     <body>
         <section class = "navbar">
-            <nav class ="navbar navbar-inverse">
+            <nav id="main_nav" class ="navbar navbar-inverse">
                 <div class="container-fluid navbar_1">
                     <ul class = "nav navbar-nav navbar-right">
                         <li><a href="#">TRANG CHỦ</a></li>
@@ -204,12 +204,8 @@
             </p>
             <button type="button">TÌM HIỂU CÁC KHÓA HỌC</button>
         </div>
+
         <footer class="footer">
-            <div class="col-xs-12 col-md-12 container_top">
-                <img src="public/img/letter.png"/>
-                <h4>Nhận chương trình học miễn phí</h4>
-                <button type="button"><a href="#">ĐĂNG KÝ NGAY</a></button>
-            </div>
             <div class="container-fluid container">
                 <div class="row">
                     <div class="col-sm-3"><a href="#"><img src="public/img/Png.png" class ="footer_logo"></a>
@@ -245,6 +241,14 @@
                 </div>
             </div>
         </footer>
-
+        <a href="#" class="scrollToTop">Scroll To Top</a>
+        <div id ="fade-out" class="sticky_bottom_footer">
+            <div class="container">
+                <img src="public/img/letter.png"/>
+                <h4>Nhận chương trình học miễn phí</h4>
+                <button type="button" class="register"><a href="#">ĐĂNG KÝ NGAY</a></button>
+                <button type="button" id="close">x</button>
+            </div>
+        </div>
     </body>
 </html>

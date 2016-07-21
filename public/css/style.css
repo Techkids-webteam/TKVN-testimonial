@@ -52,7 +52,60 @@ body{
     color: grey;
 }
 
+.scrollToTop{
+	width:100px;
+	height:130px;
+	padding:10px;
+	text-align:center;
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	top:500px;
+	right:40px;
+	display:none;
+	background-image: url('../img/1321797631_Arrow-Up.png'); no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
 
+.sticky_bottom_footer .container{
+    padding: 1px;
+    position: fixed;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+.sticky_bottom_footer h4{
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 2%;
+    font-weight: bold;
+    padding: 1%;
+}
+
+.sticky_bottom_footer .register, .register>a {
+    background-color: #f05c1e;
+    height: 40px;
+    width: 170px;
+    color: white;
+    font-weight: lighter;
+    border-color: inherit;
+}
+
+.sticky_bottom_footer button>a:hover{
+    color: white;
+    text-decoration: blink;
+
+}
+
+.sticky_bottom_footer #close{
+    float: right;
+}
 
 @media screen and (min-width: 200px) and (max-width: 750px) {
     .img_content{
@@ -66,13 +119,3 @@ body{
 @media screen and (min-width:200px) and (max-width:847px){
 
 }
-
-/*@media screen and (min-width: 600px) and (max-width: 1002px ) {
-    .img_content h1{
-        font-size: auto;
-    }
-    .img_content p{
-        font-size: auto;
-    }
-
-}*/
