@@ -70,7 +70,6 @@
 
 .MAD_comment .author_list .author img{
     border-radius: 50%;
-    margin-left: 66px;
 }
 
 .MAD_comment .author_list .author p{
@@ -120,7 +119,6 @@
 
 .web_comment .author_list .author img{
     border-radius: 50%;
-    margin-left: 66px;
 
 }
 
@@ -170,7 +168,6 @@
 
 .c4e_comment .author_list .author img{
     border-radius: 50%;
-    margin-left: 66px;
 }
 
 .c4e_comment .author_list .author p{
@@ -224,9 +221,18 @@
     color: #f8f8f8;
     border-radius: 6px;
     border: 0px;
-    font-weight: bolder;
-    height: 40px;
-    width: 231px;
+    font-weight: 700;
+    height: 45px;
+    width: 200px;
+}
+
+.find_us .title:before{
+    content: "";
+    border-top: 1px solid #F05C1E;
+    transform: translateY(50%);
+    position: relative;
+    display: table-cell;
+    width: 48%;
 }
 
 .footer .container_top {
@@ -262,16 +268,34 @@
 
 }
 
-.footer .container_bottom img{
-    width: 79%;
-    margin-left: 20%;
+footer.footer{
+	font-size: 1.4rem;
+	background-color: #f7f7f7;
+	padding: 100px 0;
 }
 
-.footer .container_bottom h5{
-    font-size: 1.3em;
-    color: grey;
+.footer_logo{
+    margin: 15px 0;
 }
 
-.footer .container_bottom hr{
-    border: 1px solid black;
+.footer h5{
+	font-size: 1.8rem;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+.footer ul{
+	padding-left: 20px;
+}
+
+.footer .socials_list{
+    font-size: 2.3rem;
+}
+
+.socials_list a:hover, .socials_list a:focus {
+    color: #000;
+    text-decoration: none;
+}
+.socials_list a {
+    color: #333;
 }

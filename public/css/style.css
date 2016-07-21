@@ -5,7 +5,9 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: tahoma;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
 }
 
 .navbar{
@@ -59,6 +61,10 @@ body{
     .find_us.title{
         padding-top: 120px;
     }
+}
+
+@media screen and (min-width:200px) and (max-width:847px){
+
 }
 
 /*@media screen and (min-width: 600px) and (max-width: 1002px ) {
