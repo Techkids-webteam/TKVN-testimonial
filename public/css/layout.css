@@ -1,0 +1,276 @@
+.navbar_1{
+    padding-right: 8%;
+    font-weight: bold;
+    font-size: 87%;
+}
+
+.img_background{
+    background: cover;
+}
+
+.background{
+    background-image: url('../img/Scene---5000x3000px.jpg');
+    background-size: 100%;
+    height: 110vh;
+    background-repeat: no-repeat;
+}
+
+.img_content h1{
+    text-align: center;
+    font-size: 1.4em;
+    padding-top: 17%;
+    color: white;
+}
+
+.img_content p{
+    text-align: center;
+    font-size: 1.1em;
+    color:#e7f2f6;
+}
+
+.MAD_comment{
+    height: 425px;
+    background-color: white;
+}
+
+.MAD_comment .header{
+    padding-top: 4%;
+    padding-left: 7%;
+}
+
+.MAD_comment .header img{
+    width: 200px;
+}
+
+.MAD_comment .header p{
+    position: relative;
+    display: block;
+    width: 90px;
+    text-align: center;
+    top: -95px;
+    left: 29px;
+    color: white;
+    font-weight: bold;
+}
+
+.MAD_comment .author_list{;
+    padding-top: 6%;
+    padding-left: 2%;
+    width: 69%;;
+    height: 280px;
+}
+
+.MAD_comment .author_list .author{
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    width: 163px;
+}
+
+.MAD_comment .author_list .author img{
+    border-radius: 50%;
+    margin-left: 66px;
+}
+
+.MAD_comment .author_list .author p{
+    width: 68%;
+    margin-left: 16%;
+}
+
+.web_comment{
+    height: 425px;
+    background-color: #272634;
+}
+
+.web_comment .header{
+    padding-top: 4%;
+    padding-left: 7%;
+}
+
+.web_comment .header img{
+    width: 200px;
+}
+
+.web_comment .header p{
+    position: relative;
+    display: block;
+    width: 90px;
+    text-align: center;
+    top: -95px;
+    left: 29px;
+    color: white;
+    font-weight: bold;
+}
+
+.web_comment .author_list{;
+    padding-top: 6%;
+    padding-left: 2%;
+    width: 69%;;
+    height: 280px;
+    color: #f8f8f8;
+}
+
+.web_comment .author_list .author{
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    width: 163px;
+}
+
+.web_comment .author_list .author img{
+    border-radius: 50%;
+    margin-left: 66px;
+
+}
+
+.web_comment .author_list .author p{
+    width: 68%;
+    margin-left: 16%;
+}
+
+.c4e_comment{
+    height: 425px;
+    background-color: white;
+}
+
+.c4e_comment .header{
+    padding-top: 4%;
+    padding-left: 7%;
+}
+
+.c4e_comment .header img{
+    width: 200px;
+}
+
+.c4e_comment .header p{
+    position: relative;
+    display: block;
+    width: 90px;
+    text-align: center;
+    top: -95px;
+    left: 29px;
+    color: white;
+    font-weight: bold;
+}
+
+.c4e_comment .author_list{;
+    padding-top: 6%;
+    padding-left: 2%;
+    width: 69%;;
+    height: 280px;
+}
+
+.c4e_comment .author_list .author{
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    width: 163px;
+}
+
+.c4e_comment .author_list .author img{
+    border-radius: 50%;
+    margin-left: 66px;
+}
+
+.c4e_comment .author_list .author p{
+    width: 68%;
+    margin-left: 16%;
+}
+
+.about_us{
+    background-color: #00b3f6;
+    height: 292px;
+    padding-top: 63px;
+    padding-bottom: 69px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.about_us p{
+    font-style: oblique;
+    font-size: 14.2px;
+
+}
+
+.find_us{
+    background-image: url('../img/background3.jpg');
+    height: 73vh;
+    text-align: center;
+    margin-top: -41px;
+    color: #f8f8f8;
+}
+
+.find_us .title{
+    font-size: 1.4rem;
+    float: none;
+    padding-top: 11%;
+    white-space: nowrap;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+.find_us .title :after {
+    content: "";
+	border-top: 1px solid #fff;
+	position: relative;
+    transform: translateY(50%);
+	display: table-cell;
+	width: 48%;
+}
+
+.find_us .sub_title {
+    font-size: 2.3rem;
+}
+
+.find_us button{
+    background-color: #F05C1E;
+    color: #f8f8f8;
+    height: 8%;
+    width: 18%;
+    border-radius: 8px;
+    border: 0px;
+    font-weight: bolder;
+}
+
+.footer .container_top {
+    text-align: center;
+    padding-top: 2%;
+    height: 12%;
+    padding-bottom: 2%;
+}
+
+.footer .container_top h4{
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 2%;
+}
+
+.footer .container_top button, button>a {
+    background-color: #f05c1e;
+    height: 40px;
+    width: 170px;
+    color: white;
+    font-weight: lighter;
+    border-color: inherit;
+}
+
+.footer .container_top button>a:hover{
+    color: white;
+    text-decoration: blink;
+
+}
+
+.footer .container_bottom img{
+    width: 79%;
+    margin-left: 20%;
+}
+
+.footer .container_bottom h5{
+    font-size: 1.3em;
+    color: grey;
+}
+
+.footer .container_bottom hr{
+    border: 1px solid black;
+}
