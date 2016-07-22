@@ -105,6 +105,11 @@ body{
 
 .sticky_bottom_footer #close{
     float: right;
+    color:white;
+    font-weight: 900;
+    font: arial;
+    background-color: #F05C1E;
+    border: 0px;
 }
 
 @media screen and (min-width: 200px) and (max-width: 750px) {
