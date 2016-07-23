@@ -114,7 +114,8 @@ body{
 
 @media screen and (min-width: 200px) and (max-width: 750px) {
     .img_content{
-        font-size: 55%;
+        margin-top: 122px;
+        font-size: 90%;
     }
     .find_us.title{
         padding-top: 120px;

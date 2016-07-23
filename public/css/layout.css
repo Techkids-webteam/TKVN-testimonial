@@ -10,7 +10,6 @@
 
 .background{
     background-image: url('../img/Scene---5000x3000px.jpg');
-    background-size: 100%;
     height: 110vh;
     background-repeat: no-repeat;
 }
