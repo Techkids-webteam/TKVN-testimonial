@@ -376,6 +376,103 @@
     margin-top: 11%;
 }
 
+.comments_small .MAD_comment .author_list{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/*web_comment*/
+
+.comments_small .web_comment{
+    background-color: #272634;
+    height: auto;
+}
+
+.comments_small .web_comment .header{
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: -67px;
+    text-align: center;
+}
+
+.comments_small .web_comment .header img{
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    width: 96px;
+    height: 155px;
+}
+
+.comments_small .web_comment .header p{
+    position: relative;
+    display: block;
+    width: 90px;
+    top: -112px;
+    left: 62px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.comments_small .web_comment .carousel-inner img{
+    margin: auto;
+    border-radius: 50%;
+    width: 36%;
+    margin-top: 11%;
+}
+
+.comments_small .web_comment .author_list{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/*c4e_comment*/
+
+.comments_small .c4e_comment{
+    background-color: white;
+    height: auto;
+}
+
+.comments_small .c4e_comment .header{
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: -67px;
+    text-align: center;
+}
+
+.comments_small .c4e_comment .header img{
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    width: 96px;
+    height: 155px;
+}
+
+.comments_small .c4e_comment .header p{
+    position: relative;
+    display: block;
+    width: 90px;
+    top: -112px;
+    left: 62px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.comments_small .c4e_comment .carousel-inner img{
+    margin: auto;
+    border-radius: 50%;
+    width: 36%;
+    margin-top: 11%;
+}
+
+.comments_small .c4e_comment .author_list{
+    padding-left: 0px;
+    padding-right: 0px;
+}
 
 .about_us{
     background-color: #00b3f6;
