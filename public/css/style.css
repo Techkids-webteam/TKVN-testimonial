@@ -58,7 +58,7 @@ body{
 	font-weight: bold;
 	color: #f8f8f8;
 	position:fixed;
-	top:400px;
+	top:430px;
 	right:40px;
     border-radius: 100%;
     display: none;
@@ -83,7 +83,7 @@ body{
     text-align: center;
     width: 100%;
     height: auto;
-    background-color: white;
+    background-color: #f6efef;
 }
 
 .sticky_bottom_footer h4{
@@ -120,7 +120,7 @@ body{
 
 .mobile_bottom_footer .container{
     text-align: center;
-    background-color: white;
+    background-color: #f6efef;
     background-size: cover;
     width: 100%;
     height: auto;
@@ -146,6 +146,22 @@ body{
 .mobile_bottom_footer button>a:hover{
     color: white;
     text-decoration: blink;
+}
+/*
+.author_list .carousel-inner > .item > img,
+.author_list .carousel-inner > .item > a > img {
+  margin: auto;
+  border-radius: 50%;
+  width: 50%;
+  margin-top: 11%;
+}*/
+
+.glyphicon-chevron-left:before {
+    content: "◄";
+}
+
+.glyphicon-chevron-right:before {
+    content: "►";
 }
 
 @media screen and (min-width: 200px) and (max-width: 750px) {
