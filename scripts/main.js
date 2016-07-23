@@ -54,11 +54,10 @@ $(window).scroll(function(event) {
         });
     }
 
-	$("#close").click(function(){
-		$("#fade-out").fadeOut(800);
-	});
 });
 
 $(document).ready(function(){
-
+	$("#close").click(function(){
+		$("#fade-out").fadeOut(800);
+	});
 })

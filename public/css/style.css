@@ -147,14 +147,6 @@ body{
     color: white;
     text-decoration: blink;
 }
-/*
-.author_list .carousel-inner > .item > img,
-.author_list .carousel-inner > .item > a > img {
-  margin: auto;
-  border-radius: 50%;
-  width: 50%;
-  margin-top: 11%;
-}*/
 
 .glyphicon-chevron-left:before {
     content: "◄";
@@ -162,14 +154,4 @@ body{
 
 .glyphicon-chevron-right:before {
     content: "►";
-}
-
-@media screen and (min-width: 200px) and (max-width: 750px) {
-    .img_content{
-        margin-top: 122px;
-        font-size: 90%;
-    }
-    .find_us.title{
-        padding-top: 120px;
-    }
 }
