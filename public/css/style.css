@@ -53,20 +53,26 @@ body{
 }
 
 .scrollToTop{
-	width:100px;
-	height:130px;
-	padding:10px;
 	text-align:center;
-	background: whiteSmoke;
+	background-color:#00b3f6;
 	font-weight: bold;
-	color: #444;
-	text-decoration: none;
+	color: #f8f8f8;
 	position:fixed;
-	top:500px;
+	top:400px;
 	right:40px;
-	display:none;
-	background-image: url('../img/1321797631_Arrow-Up.png'); no-repeat 0px 20px;
+    border-radius: 100%;
+    display: none;
+    border: none;
+    z-index: 1;
+    height: 50px;
+    width: 50px;
+    font-size: 3rem;
 }
+
+.scrollToTop:focus{
+    outline: 0 none;
+}
+
 .scrollToTop:hover{
 	text-decoration:none;
 }
@@ -75,9 +81,9 @@ body{
     padding: 1px;
     position: fixed;
     text-align: center;
-    background-color: white;
     width: 100%;
     height: auto;
+    background-color: white;
 }
 
 .sticky_bottom_footer h4{
@@ -112,6 +118,36 @@ body{
     border: 0px;
 }
 
+.mobile_bottom_footer .container{
+    text-align: center;
+    background-color: white;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.mobile_bottom_footer h4{
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 2%;
+    font-weight: bold;
+    padding: 1%;
+}
+
+.mobile_bottom_footer .register, .register>a {
+    background-color: #f05c1e;
+    height: 40px;
+    width: 170px;
+    color: white;
+    font-weight: lighter;
+    border-color: inherit;
+}
+
+.mobile_bottom_footer button>a:hover{
+    color: white;
+    text-decoration: blink;
+}
+
 @media screen and (min-width: 200px) and (max-width: 750px) {
     .img_content{
         margin-top: 122px;
@@ -120,8 +156,4 @@ body{
     .find_us.title{
         padding-top: 120px;
     }
-}
-
-@media screen and (min-width:200px) and (max-width:847px){
-
 }
