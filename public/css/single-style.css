@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+.navbar-header img{
+    max-width: 50%;
+    margin-top: 2%;
+}
+
+.dropdown:hover .dropdown-menu>li a:hover{
+    background-color: #02BBE9;
+}
+
+.navbar-default{
+    border-color: white;
+    background-color: white;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    padding-right: 6%;
+    font-size: 140%;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    text-decoration: none;
+    color: #02BBE9;
+    background-color: auto;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background-color: white;
+    color: #02BBE9;
+}
+
+.dropdown-menu{
+    font-size: large;
+}
+
+.slick-prev:before, .slick-next:before{
+    color: grey;
+}
+
+.scrollToTop{
+	text-align:center;
+	background-color:#00b3f6;
+	font-weight: bold;
+	color: #f8f8f8;
+	position:fixed;
+	top:430px;
+	right:40px;
+    border-radius: 100%;
+    display: none;
+    border: none;
+    z-index: 1;
+    height: 50px;
+    width: 50px;
+    font-size: 3rem;
+}
+
+.scrollToTop:focus{
+    outline: 0 none;
+}
+
+.scrollToTop:hover{
+	text-decoration:none;
+}
+
+.sticky_bottom_footer .container{
+    padding: 1px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: #f6efef;
+}
+
+.sticky_bottom_footer h4{
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 2%;
+    font-weight: bold;
+    padding: 1%;
+}
+
+.sticky_bottom_footer .register, .register>a {
+    background-color: #f05c1e;
+    height: 40px;
+    width: 170px;
+    color: white;
+    font-weight: lighter;
+    border-color: inherit;
+}
+
+.sticky_bottom_footer button>a:hover{
+    color: white;
+    text-decoration: blink;
+
+}
+
+.sticky_bottom_footer #close{
+    float: right;
+    color:white;
+    font-weight: 900;
+    font: arial;
+    background-color: #F05C1E;
+    border: 0px;
+}
+
+.mobile_bottom_footer .container{
+    text-align: center;
+    background-color: #f6efef;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.mobile_bottom_footer h4{
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 2%;
+    font-weight: bold;
+    padding: 1%;
+}
+
+.mobile_bottom_footer .register, .register>a {
+    background-color: #f05c1e;
+    height: 40px;
+    width: 170px;
+    color: white;
+    font-weight: lighter;
+    border-color: inherit;
+}
+
+.mobile_bottom_footer button>a:hover{
+    color: white;
+    text-decoration: blink;
+}
+
+.glyphicon-chevron-left:before {
+    content: "◄";
+}
+
+.glyphicon-chevron-right:before {
+    content: "►";
+}
