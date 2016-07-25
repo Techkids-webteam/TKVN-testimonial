@@ -155,3 +155,7 @@ body{
 .glyphicon-chevron-right:before {
     content: "►";
 }
+
+.fade{
+    opacity: -1;
+}

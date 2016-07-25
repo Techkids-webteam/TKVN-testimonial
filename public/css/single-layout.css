@@ -10,6 +10,11 @@
     background-size: cover;
 }
 
+.profile{
+    padding-top: 2%;
+    height: auto;
+}
+
 .profile .comment{
     padding-left: 12%;
 }
@@ -21,6 +26,18 @@
 .profile .picture img{
     width:75%;
     padding-top:5%;
+}
+
+.section_title{
+	font-size: 2.3rem;
+	margin: 40px auto;
+	float: none;
+	display: table;
+	position: relative;
+	white-space: nowrap;
+	font-weight: 300;
+	text-transform: uppercase;
+    text-align: center;
 }
 
 .articles_list .column_title{
@@ -50,17 +67,7 @@
 .column_title a:hover,
 .column_title a:focus{
 	color: #000;
-}
-
-.section_title{
-	font-size: 2.3rem;
-	margin: 40px auto;
-	float: none;
-	display: table;
-	position: relative;
-	white-space: nowrap;
-	font-weight: 300;
-	text-transform: uppercase;
+    text-decoration: none;
 }
 
 .news_thumbnail{
@@ -74,23 +81,22 @@
 	width: 100%;
 }
 
-/*.course .title{
-    text-align: center;
-    font-weight: 600;
+.see_more_link{
+	display: inline-block;
+	white-space: nowrap;
+	padding-right: 2em;
+	color: #00A0C6;
+	font-weight: 700;
+	margin-top: 10px;
 }
 
-.course .content{
-    padding-left: 10%;
+.see_more_link:hover,
+.see_more_link:focus{
+	color: #02BBE9;
 }
-
-.course .picture{
-    text-align: center;
+.see_more_link .fa{
+	font-size: 0.7em;
 }
-
-.course .picture img{
-    width:75%;
-    padding-top:1%;
-}*/
 
 .find_us{
     background-image: url('../img/background3.jpg');
@@ -110,7 +116,6 @@
     margin-bottom: 3px;
     padding-bottom: 8px;
 }
-
 
 .find_us .sub_title {
     text-align: center;
@@ -139,10 +144,9 @@
 
 footer.footer{
 	font-size: 1.4rem;
-	background-color: white;;
-	padding-top: 840px;
+	background-color: white;
 	padding-bottom: 120px;
-	padding-top: 840px;
+	padding-top: 575px;
 }
 
 .footer_logo{
