@@ -14,6 +14,7 @@ $(document).ready(function(){
 		$('html, body').animate({scrollTop : 0},800);
 		return false;
 	});
+
 });
 
 $(window).scroll(function(event) {
@@ -52,6 +53,7 @@ $(window).scroll(function(event) {
             bottom: 0
         });
     }
+
 });
 
 $(document).ready(function(){
